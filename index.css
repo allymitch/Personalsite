@@ -1,0 +1,29 @@
+html {
+    background-color: pink;
+    color: blue;
+}
+
+p {
+   color: green; 
+}
+
+.class1 {
+    color: yellow;
+    font-weight: bold;
+}
+
+.class1.class2 {
+    color: black;
+}
+
+img {
+    width: 25%;
+}
+
+li {
+    color: black;
+}
+
+div {
+    font-size: 24px;
+}
