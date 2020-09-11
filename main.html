@@ -5,24 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Look Website</title>
     <link rel="stylesheet" type="text/css" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f748ed3790.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <div class="header-subsection">
-           <img src="./images/location.png" alt="location icon">
-           <a href="https://www.newlook.com/uk/store-finder">Find a store</a>
+           <img class="header-icon header-icon-left" src="./images/location.png" alt="location icon">
+           <a class="header-sublink" href="https://www.newlook.com/uk/store-finder">Find a store</a>
         </div>
-        <a href="https://www.newlook.com/uk/">
-            <h1>NEW LOOK</h1>
+        <a class="header-link" href="https://www.newlook.com/uk/">
+            <h1 class="header-text">NEW LOOK</h1>
         </a>
         <div class="header-subsection">
-           <a href="https://www.newlook.com/uk/login">Account</a>
-           <img src="./images/account.png" alt="account icon">
+           <a class="header-sublink" href="https://www.newlook.com/uk/login">Account</a>
+           <img class="header-icon header-icon-right"src="./images/account.png" alt="account icon">
         </div>
     </header>
-    <nav>
-
-    </nav>
+    <section class="main-nav-container">
+        <div class="main-nav-container--centered">
+            <nav class="nav-main">
+                <a class="nav-link" href="/uk/sale">Sale</a>
+                <a class="nav-link" href="/uk/womens">Womens</a>
+                <a class="nav-link" href="/uk/mens">Mens</a>
+                <a class="nav-link" href="/uk/girls">Girls</a>
+            </nav>
+            <div class="nav-right">
+                <div class="search-container">
+                    <input class="nav-search" type="text" placeholder="Search">
+                    <button class="search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <span class="nav-icon-container">
+                    <i class="far fa-heart nav-icon"></i>
+                </span>
+                <span class="nav-icon-container">
+                    <i class="fas fa-shopping-bag nav-icon"></i>
+                </span>
+            </div>
+        </div>
+    </section>
     <main>
         <section>
 
